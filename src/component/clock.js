@@ -80,7 +80,7 @@ export const Clock = () => {
       </div>
       <div className="countdown">
         <span>countdown</span><br></br>
-        <input type="text" placeholder="MM/DD/YY" id="set-count" /><br/>
+        <input type="text" placeholder="MM/DD/YY or MM/YY/dd hh:mm:ss" id="set-count" /><br/>
         <button onClick={countdownSet}>set countdown</button>
         <div id="label"></div>
         <div>
