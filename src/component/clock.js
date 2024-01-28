@@ -39,7 +39,7 @@ export const Clock = () => {
   }
 
   function PaddZero(number) {
-    return number < 10 ? "0" + number : number;
+    return number.toString().length === 1 ? "0" + number : number;
   }
 
   const countdownSet = () => {
