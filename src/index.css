@@ -1,0 +1,59 @@
+*{
+  color:#e9e5e5;
+}
+body{
+  margin:0;
+  box-sizing: border-box;
+  background-image: url(assets/bl3.jpeg);
+  background-position: center;
+  opacity: 5px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+ 
+}
+.clock-container{
+  backdrop-filter: blur(20px);
+}
+.clock{
+  color:white;
+  font-size: 4rem;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 5px 2px blueviolet;
+}
+.countdown{
+  padding:5px 5px;
+  font-size: 2rem;
+}
+.countdown span:first-child{
+  color: goldenrod;
+  font-size: 4rem;
+}
+button{
+  background-color: #00ff12;
+  padding: 4px 5px;
+  margin: 10px;
+  border:2px solid;
+  border-radius: 10px;
+  border:none;
+  font-size: 1.8rem;
+}
+input[type=text]{
+ background-color: aqua;
+ border-radius: 10px;
+ padding: 0.7em 0.9rem;
+ margin-left: 0.9em;
+ color: black;
+ font-size: 1rem;
+ font-weight: 400;
+}
+.big-text{
+  min-height:10vh;
+  width:20vw;
+  background-image:linear-gradient(to right,#0909f5 20%,#1c1cdb 30%,hsl(240, 100%, 27%) 50%) ;
+  border-radius: 5px;
+  font-size: 4rem;
+  color: antiquewhite;
+}
